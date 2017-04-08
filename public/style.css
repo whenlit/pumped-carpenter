@@ -1,0 +1,36 @@
+
+.paper {
+  width: 210px;
+  height: 298px;
+  margin: auto;
+  position: relative;
+  border: 12px solid #eee;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-dasharray: 3 4;
+}
+
+circle {
+  fill: red;
+}
+
+rect {
+  fill: none;
+  cursor: crosshair;
+  pointer-events: all;
+}
